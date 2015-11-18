@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box; }
+
+.dg {
+  /** Clear list styles */
+  /* Auto-place container */
+  /* Auto-placed GUI's */
+  /** Folder names */
+  /** Hides closed items */
+  /** Controller row */
+  /** Name-half (left) */
+  /** Controller-half (right) */
+  /** Ensure the entire boolean and function row shows a hand */ }
+  .dg ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    clear: both; }
+  .dg:not(.ac) .main {
+    /** Exclude mains in ac so that we don't hide close button */
+    overflow: hidden; }
+  .dg.main .close-button {
+    width: 60px;
+    /* TODO, these are style notes */ }
+  .dg #main_menu_list > li {
+    padding: 0px;
+    border-style: none; }
+  .dg .menu-btn-container {
+    height: 30px;
+    display: table-row; }
+  .dg #navmenu-link {
+    /*display: none;*/
+    /*z-index: 1001;*/
+    background: #ffffff; }
+  .dg li.ui-slider .property-name, .dg li.boolean .property-name {
+    float: left;
+    padding-right: 15px;
+    padding-top: 5px; }
+  .dg ul:not(.closed) .cr {
+    /*padding: 5px;*/ }
+  .dg ul.closed .cr {
+    padding: 0; }
+  .dg #main_menu_list {
+    box-shadow: none;
+    display: table-row;
+    margin-top: 30px; }
+  .dg .main {
+    display: table; }
+  .dg .checkbox-div {
+    float: left; }
+  .dg li.title {
+    cursor: pointer;
+    display: none;
+    margin-left: -4px; }
+  .dg .slider {
+    float: left;
+    width: 66%;
+    margin-left: -5px;
+    margin-right: 0;
+    height: 19px;
+    margin-top: 4px; }
+  .dg .slider-fg {
+    height: 100%; }
+  .dg .cr.function,
+  .dg .cr.function .property-name,
+  .dg .cr.function *,
+  .dg .cr.boolean,
+  .dg .cr.boolean * {
+    cursor: pointer; }
+  .dg .selector {
+    display: none;
+    position: absolute;
+    margin-left: -9px;
+    margin-top: 23px;
+    z-index: 10; }
+  .dg .c:hover .selector,
+  .dg .selector.drag {
+    display: block; }
+
+/* TODO Separate style and structure */
+/** Main type */
+.dg {
+  /* Controller row, <li> */
+  /** Controllers */ }
+
+/*# sourceMappingURL=style.css.map */
